@@ -56,7 +56,6 @@
             <td>{{ item['category'] }}</td>
             <td>
 
-              <!-- loop.index - повертає порядковий номер ітерації (повторення) -->
               <a href="{{ url_for('delete', index=loop.index0) }}">
                 <button type="submit">Delete</button>
               </a>
